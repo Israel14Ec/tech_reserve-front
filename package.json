@@ -1,0 +1,41 @@
+{
+  "name": "frontend",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test:unit": "vitest"
+  },
+  "dependencies": {
+    "@heroicons/vue": "^2.1.4",
+    "@vee-validate/rules": "^4.13.1",
+    "@vee-validate/yup": "^4.13.1",
+    "axios": "^1.7.2",
+    "firebase": "^10.12.2",
+    "pinia": "^2.1.7",
+    "sweetalert2": "^11.14.0",
+    "vee-validate": "^4.13.1",
+    "vue": "^3.4.29",
+    "vue-router": "^4.3.3",
+    "vue-tailwind-datepicker": "^1.7.3",
+    "vue3-toastify": "^0.2.2",
+    "vuefire": "^3.1.23",
+    "vuetify": "^3.6.10"
+  },
+  "devDependencies": {
+    "@mdi/font": "^7.4.47",
+    "@vitejs/plugin-vue": "^5.0.5",
+    "@vue/test-utils": "^2.4.6",
+    "autoprefixer": "^10.4.19",
+    "jsdom": "^24.1.0",
+    "material-design-icons-iconfont": "^6.7.0",
+    "postcss": "^8.4.38",
+    "sass": "^1.77.6",
+    "tailwindcss": "^3.4.4",
+    "vite": "^5.3.2",
+    "vitest": "^1.6.0"
+  }
+}
